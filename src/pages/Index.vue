@@ -2,9 +2,9 @@
   <q-page class="container">
     <horizontal-stepper
       :steps="etapas"
-      @completed-step="etapaCompleta()"
-      @active-step="etapaAtiva()"
-      @stepper-finished="etapaFinalizada()"></horizontal-stepper>
+      @completed-step="etapaCompleta"
+      @active-step="etapaAtiva"
+      @stepper-finished="etapaFinalizada"></horizontal-stepper>
   </q-page>
 </template>
 
